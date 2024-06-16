@@ -146,6 +146,20 @@ VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=nv
 
 `git clone` したりテンプレートとして新しくレポを作成してください。ローカルに `git clone` した前提で進めます。基本的に `main.typ` を編集して進めます。Typst のファイル拡張子は `.typ` です。`main.typ` を読むと基本的な使用方法がわかるようになっています。
 
+Typst を使って `.typ` ファイルを PDF にコンパイルするためには以下のコマンドを使います:
+
+```bash
+typst compile main.typ
+```
+
+もしくは短縮記法で
+
+```bash
+typst c main.typ
+```
+
+すると、0.2秒くらいで同じディレクトリに `main.pdf` が作成されます。VSCode 拡張が有効であれば、保存時に自動でコンパイルされ、即時反映されます。
+
 ![](./vscode-1.jpg)
 
 同じディレクトリにある `uec_exp_a.typ` がテンプレートのファイルになっているので、それを読み込んで使う形になっています。テンプレートは、基礎科学実験A1 で配布されていた LaTeX テンプレートの設定をなるべく再現するようになっています。
