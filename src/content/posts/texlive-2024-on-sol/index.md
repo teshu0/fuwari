@@ -21,8 +21,8 @@ draft: false
 
 :::note
 **SOL環境とは？**
-
-https://www.cc.uec.ac.jp/ug/ja/edu_srv/index.html
+一言で言えばコンリテの授業で使ってるあの Linux 環境のことです。家でもコンリテの課題等ができるように接続する方法が提供されています。
+詳細: https://www.cc.uec.ac.jp/ug/ja/edu_srv/index.html
 :::
 
 その際にあなたがどんなテキストエディタを使ったかわかりませんが、9割くらいの人は授業で教わった Emacs を使ったかもしれません。
