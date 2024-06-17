@@ -5,7 +5,7 @@ description: XQuartz と Emacs を窓から投げ捨てろ！！
 image: "./cover.jpg"
 tags: ["SSH", "VSCode", "UEC", "SOL", "ライフハック"]
 category: 大学関連
-draft: true
+draft: false
 ---
 
 ## 対象読者
